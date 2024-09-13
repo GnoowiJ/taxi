@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a, Link{
+  text-decoration: none;
+  color: black;
+}
+li{
+  list-style: none;
+}
+.header{
+  color: #fff;
+  width: 100%;
+  background-color: #000;
+}
+.header-box{
+  min-width: 800px;
+  width: 1200px;
+  height: 110px;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  padding: 30px 0;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-logo{
+  background: url("https://www.intltaxi.co.kr/assets/images/logo.svg");
+  width: 177px;
+  height: 50px;
+}
+.navbox{
+  display: flex;
+  color: #fff;
+  gap: 30px;
+}
+.navbox > li{
+  font-size: 16px;
+  font-weight: 600;
+}
+.select-box{
+  border: 1px solid rgb(158, 158, 158);;
+  width: 177px;
+  height: 46px;
+  line-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: rgb(158, 158, 158);
+  border-radius: 4px;
+}
+.header-select{
+  width: 175px;
+  height: 196px;
+  background-color: #000;
+  padding: 8px 0;
+}
+.header-select > li{
+  font-size: 16px;
+  text-align: left;
+}
