@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Spoqa Han Sans';
 }
 
 a, Link{
@@ -11,10 +12,22 @@ a, Link{
 li{
   list-style: none;
 }
+
+/* 헤더 */
 .header{
   color: #fff;
   width: 100%;
   background-color: #000;
+  position: relative;
+}
+.header-img{
+  background: url(https://www.intltaxi.co.kr/assets/images/bg-main.png)
+  center top / cover no-repeat;
+  height: 1080px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -3;
 }
 .header-box{
   min-width: 800px;
@@ -26,6 +39,7 @@ li{
   padding: 30px 0;
   justify-content: space-around;
   align-items: center;
+  z-index: 3;
 }
 .header-logo{
   background: url("https://www.intltaxi.co.kr/assets/images/logo.svg");
